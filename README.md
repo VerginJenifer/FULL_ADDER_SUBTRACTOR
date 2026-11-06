@@ -44,7 +44,7 @@ Write the detailed procedure here
 
 **Program:**
 
-/* 
+``` 
 Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. 
 Developed by: D Vergin Jenifer
 RegisterNumber: 212223240174
@@ -57,12 +57,14 @@ assign carry = a&b|b&c|a&c;
 assign DIFF = a^b^c;
 assign BO = ~a&b|b&c|~a&c;
 endmodule
-*/
+```
 
 **RTL Schematic**
+
 <img width="597" height="451" alt="image" src="https://github.com/user-attachments/assets/f5c44452-2be1-458c-8dc9-8053a41746c5" />
 
 **Output Timing Waveform**
+
 <img width="1727" height="325" alt="image" src="https://github.com/user-attachments/assets/c2425755-0a38-4898-99c8-e0ab1221358e" />
 
 **Result:**
